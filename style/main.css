@@ -3,3 +3,135 @@
     max-width: 980px;
     margin: 0 auto;
 }
+
+.main-col-group{
+    display: flex;
+}
+
+.main-col-group:nth-of-type(even){
+    flex-direction: row-reverse;
+}
+
+.main-col{
+    text-align: center;
+    width: 50%;
+    min-height: 463px;
+    display: flex;
+    align-items: center;
+}
+
+.main-content{
+    max-width: 370px;
+    margin: 0 auto;
+}
+.height-model-first{
+    min-height: 287px;
+}
+.height-model-second{
+    min-height: 230px;
+}
+.height-model-third{
+    min-height: 210px;
+}
+.height-model-fourth{
+    min-height: 170px;
+}
+
+.fake-block{
+    width: 64px;
+    height: 37px;
+    line-height: 37px;
+    border: 6px solid #000;
+    background-color: #fff;
+    /* position: relative; */
+    margin: 0 auto;
+    
+}
+
+.fake-line{
+    display: inline-block;
+    width: 38px;
+    border-top: 6px solid red;
+    margin: 0 auto;
+    transform: rotate(138deg);
+}
+
+.fake-triangle{
+    display: inline-block;
+    border:9px solid transparent;
+    border-top-color: #000;
+    position: relative;
+    right: 20px;
+}
+
+.main-content h2{
+    font-size: 30px;
+    color: #3d3d3d;
+    font-weight: bold;
+    font-family: raleway,sans-serif;
+    padding-bottom: 26px;
+}
+
+h6{
+    font-family: メイリオ,meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;
+    font-weight: bold;
+}
+.not-start{
+    font-size: 26px;
+    padding-bottom: 26px;
+    
+}
+h6:not([class="not-start"]){
+    text-align: start;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.main-content h6 span{
+    text-decoration: underline;
+}
+
+.main-des{
+    font-family: メイリオ,meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;
+    max-width: 370px;
+    margin: 0 auto;
+    line-height: 1.2;
+}
+
+.main-des h2{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.not-start{
+    text-align: center;
+}
+
+.main-des .not-padding{
+    padding-bottom: 21px;
+}
+.tw-style{
+    font-size: 17px;
+    text-align: start;
+    padding-bottom: 21px;
+}
+.en-style{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    padding-bottom: 21px;
+}
+
+.main-img-des h6 span{
+    text-decoration: none;
+    font-size: 26px;
+    font-family: メイリオ,meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;
+}
+
+@media screen and(min-width:768px) {
+    .main-col{
+        width: 100%;
+    }
+
+    
+}

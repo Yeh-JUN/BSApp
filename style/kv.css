@@ -1,6 +1,8 @@
 .kv{
     height: 100vh;
     width: 100%;
+    min-width: 980px;
+    margin: 0 auto;
     display: block;
     background-image: url("../image/kvimage/sky.jpg");
     background-size: cover;
@@ -92,8 +94,6 @@ span h3{
     font-size: 18px;
 }
 
-
-
 /* kv-join */
 .info-group{
     display: flex;
@@ -112,4 +112,13 @@ span h3{
 
 .info-group a:hover{
     background-color: rgb(50, 150, 200, .8);
+}
+
+
+@media screen and (min-width:1261px) {
+    .kv{
+        max-width:1260px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
