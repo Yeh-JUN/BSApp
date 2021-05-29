@@ -3,6 +3,7 @@
     position: relative;
     max-width: 1260px;
     min-width: 980px;
+    margin: 0 auto;
     height: 127px;
     display: flex;
     justify-content: center;
@@ -29,6 +30,7 @@
 
 /* container */
 .process-container{
+    margin: 0 auto;
     min-width: 960px;
     max-width: 1260px;
 }
