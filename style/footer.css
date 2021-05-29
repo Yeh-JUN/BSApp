@@ -1,0 +1,87 @@
+footer{
+    background-color: rgb(238,238,238);
+    border-top: 5px solid rgb(96,94,94);
+    padding: 15px 0 5px;
+    max-width: 1260px;
+    min-width: 980px;
+}
+
+.footer-container{
+    max-width: 880px;
+    margin: 0 auto;
+}
+
+.info-content{
+    max-width: 385px;
+    padding-bottom: 30px;
+}
+
+.coopration-content{
+    padding-bottom: 40px;
+}
+
+.contact-content a{
+    text-decoration: none;
+    color: #000;
+}
+
+.coopration-content h6:first-child{   font-family: メイリオ,meiryo,ヒラギノ角ゴ pro w3,hiragino kaku gothic pro,sans-serif;
+    font-size:20px;
+}
+
+.coopration-content h6:last-child{
+    font-size:16px;
+    letter-spacing: 0.02em;
+    line-height: 1.4;
+}
+
+.contact-content, .other-content{
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.other-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end
+}
+
+.info-online{
+    display: flex;
+    align-items: center;
+    font-size: 0;
+    
+}
+
+.other-icon{
+    padding-right: 15px;
+}
+.other-content a{
+    padding-top: 14px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #000;
+}
+
+.fb-message-fixed{
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 124, 255);
+    border-radius: 50%;
+}
+
+.fa-facebook-messenger{
+    font-size: 40px;
+    color: #fff;
+}
+
+.copy-right{
+    letter-spacing: 0.04em;
+}
