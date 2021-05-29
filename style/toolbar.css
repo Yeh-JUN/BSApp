@@ -1,0 +1,20 @@
+.toolbar-title img{
+    object-fit: cover;
+    opacity: 0.1;
+    height: 161px;
+    width: 100%;
+}
+
+.toolbar-content-group{
+    padding: 20px 0 120px;
+    display: flex;
+}
+
+
+.toolbar-img{
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}

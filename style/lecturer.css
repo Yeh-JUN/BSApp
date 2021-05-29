@@ -1,0 +1,6 @@
+.lecturer-title img{
+    object-fit: cover;
+    opacity: 0.1;
+    height: 161px;
+    width: 100%;
+}
