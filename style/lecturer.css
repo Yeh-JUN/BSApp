@@ -6,12 +6,19 @@
 }
 
 .lecturer-content-group{
-    display: flex;
-    padding: 5px 0 15px;
-    max-width: 1120px;
-    margin: 0 auto;
+    display: block;
+    
 }
 
 .lecturer-img{
     height: 80px;
+}
+
+@media screen and (min-width:767px) {
+    .lecturer-content-group{
+        display: flex;
+        padding: 5px 0 15px;
+        max-width: 1120px;
+        margin: 0 auto;
+    }
 }

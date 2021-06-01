@@ -1,7 +1,7 @@
 .kv{
     height: 100vh;
     width: 100%;
-    min-width: 980px;
+    /* min-width: 980px; */
     margin: 0 auto;
     display: block;
     background-image: url("../image/kvimage/sky.jpg");
@@ -10,8 +10,8 @@
 }
 .kv-container{
     height: 100vh;
-    max-width: 980px;
-    min-width: 980px;
+    width: 100%;
+    
     margin: 0 auto;
 }
 .kv-container,
@@ -76,7 +76,7 @@ span h3{
 
 /* kv-main */
 .kv-main{
-    height: calc(100vh - 116px);
+    height: calc(80vh - 116px);
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -98,13 +98,13 @@ span h3{
 .info-group{
     display: flex;
     justify-content: space-between;
-    padding: 0 55px;
+    /* padding: 0 55px; */
     font-size: 0;
 }
 .info-group a{
     display: inline-block;
     font-size: 16px;
-    line-height: 48px;
+    /* line-height: 48px; */
     background-color: rgb(50, 150, 200, .3);
     padding: 0 20px;
     font-weight: 700;
@@ -120,5 +120,39 @@ span h3{
         max-width:1260px;
         background-size: cover;
         background-repeat: no-repeat;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .kv-container{
+        height: 100vh;
+        max-width: 980px;
+        /* min-width: 980px; */
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:500px) {
+    .info-group{
+        display: flex;
+        justify-content: space-between;
+        padding: 0 55px;
+        font-size: 0;
+    }
+
+    .info-group a{
+        display: inline-block;
+        font-size: 16px;
+        line-height: 48px;
+        background-color: rgb(50, 150, 200, .3);
+        padding: 0 20px;
+        font-weight: 700;
+    }
+
+    .kv-main{
+        height: calc(100vh - 116px);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 }

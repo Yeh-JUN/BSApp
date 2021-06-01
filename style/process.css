@@ -3,8 +3,9 @@
 .toolbar-title,
 .lecturer-title{
     position: relative;
-    max-width: 1260px;
-    min-width: 980px;
+    width: 100%;
+    /* max-width: 1260px;
+    min-width: 980px; */
     margin: 0 auto;
     /* height: 127px; */
     display: flex;
@@ -36,18 +37,16 @@
 /* container */
 .process-container{
     margin: 0 auto;
-    min-width: 960px;
-    max-width: 1260px;
+    width: 100%;
 }
 
 .process-content-group{
     padding: 60px 0 100px;
-    display: flex;
+    display: block;
 }
 
 .process-col{
-    max-width: 25%;
-    min-width: 25%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,6 +91,34 @@
 .img-model-th{
     width: 74px;
     height: 90px;
+}
+
+@media screen and (min-width:767px){
+    .process-title,
+    .toolbar-title,
+    .lecturer-title{
+        max-width: 1260px;
+        /* min-width: 980px; */
+    }
+
+    .process-container{
+        margin: 0 auto;
+        /* min-width: 960px; */
+        max-width: 1260px;
+    }
+
+    .process-content-group{
+        padding: 60px 0 100px;
+        display: flex;
+    }
+
+    .process-col{
+        max-width: 25%;
+        min-width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 

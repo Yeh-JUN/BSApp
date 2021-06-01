@@ -2,8 +2,7 @@ footer{
     background-color: rgb(238,238,238);
     border-top: 5px solid rgb(96,94,94);
     padding: 15px 0 5px;
-    max-width: 1260px;
-    min-width: 980px;
+    width: 100%;
     margin:0 auto;
 }
 
@@ -43,7 +42,7 @@ footer{
 }
 
 .other-content{
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: flex-end
 }
@@ -84,5 +83,23 @@ footer{
 }
 
 .copy-right{
+    text-align: right;
     letter-spacing: 0.04em;
+}
+
+@media screen and (min-width:767px) {
+    footer{
+        background-color: rgb(238,238,238);
+        border-top: 5px solid rgb(96,94,94);
+        padding: 15px 0 5px;
+        max-width: 1260px;
+        /* min-width: 980px; */
+        margin:0 auto;
+    }
+
+    .other-content{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end
+    }
 }
