@@ -38,9 +38,8 @@
 }
 
 .fake-block{
-    width: 64px;
-    height: 37px;
-    line-height: 37px;
+    width: 70px;
+    line-height: 35px;
     border: 6px solid #000;
     background-color: #fff;
     /* position: relative; */
@@ -129,9 +128,5 @@ h6:not([class="not-start"]){
 }
 
 @media screen and(min-width:768px) {
-    .main-col{
-        width: 100%;
-    }
-
     
 }

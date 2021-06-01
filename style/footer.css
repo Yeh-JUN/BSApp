@@ -4,6 +4,7 @@ footer{
     padding: 15px 0 5px;
     max-width: 1260px;
     min-width: 980px;
+    margin:0 auto;
 }
 
 .footer-container{
